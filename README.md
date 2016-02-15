@@ -20,7 +20,6 @@ $ npm run dev
 .
 ├── package.json              # build scripts and dependencies
 ├── .babelrc                  # babel configuration
-├── .eslintrc.js              # eslint configuration
 ├── build
 │   ├── dev-server.js         # development server script
 │   ├── karma.conf.js         # unit testing config
@@ -47,7 +46,6 @@ $ npm run dev
   - Webpack + `vue-loader` for single file Vue components.
   - State preserving hot-reload
   - State preserving compilation error overlay
-  - Lint-on-save with ESLint
   - Source maps
 
 - `npm run build`: Production ready build.
